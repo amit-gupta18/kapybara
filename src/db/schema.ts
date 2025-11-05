@@ -36,3 +36,4 @@ export const postCategories = pgTable(
     pk: primaryKey({ columns: [table.postId, table.categoryId] }),
   })
 );
+
